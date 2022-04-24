@@ -1,0 +1,226 @@
+@font-face {
+    font-family: PublicSans;
+    src: url(../fonts/PublicSans-VariableFont_wght.ttf);
+  }
+@font-face {
+    font-family: DMSerif;
+    src: url(../fonts/DMSerifDisplay-Regular.ttf);
+  }
+:root {
+    --primary-pink: rgb(186,66,112);
+    --primary-white: rgb(251,252,254);
+    --sec-juan-blue: rgb(54,83,107);
+    --sec-mirage-blue: rgb(27,38,47);
+    --sec-charm-pink: rgb(218,109,151);
+    --sec-light-juan-blue: rgb(108,130,148);
+    --large-font:72px;
+    --smal-font:56px;
+    --h2-font:48px;
+    --h2-line:56px;
+    --h3-big-font:18px;
+    --h3-big-line:25px;
+    --h4-font:24px;
+    --h4-line:32px;
+    --body-font:15px;
+    --body-line:15px;
+  }
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: PublicSans;
+    color: var(--sec-juan-blue);
+}
+main{
+    width: 1440px;
+}
+a{
+    text-decoration: none;
+    color: var(--sec-juan-blue);
+    font-weight: 500;
+}
+ul li{
+    list-style: none;
+}
+section{
+    height: 3066px;
+    padding: auto;
+    background: #EDF3F8;
+    
+}
+h2{
+    font-family: DMSerif;
+    font-size: var(--h2-font);
+    line-height: var(--h2-line);
+}   
+/*Home section start*/
+.doira{
+    width: 780px;
+    height: 780px;
+    background-color: var(--sec-juan-blue);
+    border-radius: 100%;
+    position: absolute;
+    top: -200px;
+    left: 800px;    
+    opacity: 0.1;
+    z-index: 55;
+}
+#home{
+    padding: 60px;
+}
+#home nav{
+    width: 1110px;
+    height: 48px;
+    display: flex;
+    justify-content: space-between;
+}
+#home nav ul{
+    display: flex;
+}
+#home nav ul li .logo{
+    margin-left: 180px;
+}
+#home nav ul li .logo img{
+    width: 6px;
+    height: 6px;
+}
+
+#home nav ul li{
+    margin-left: 0;
+    line-height: 48px;
+}
+#home nav ul li:nth-child(2){
+    margin-left: 65px;
+}
+#home nav ul li a{
+    font-size: var(--body-font);
+    line-height: var(--body-line);
+    font-family: PublicSans;
+    color: var(--sec-juan-blue);
+    margin-left: 40px;
+}
+.demo{
+    width: 173px;
+    height: 48px;
+    border-radius: 25px;
+    background-color: var(--primary-pink);
+    border-color: var(--primary-pink);
+    color: var(--primary-white);
+    font-family: PublicSans;
+    font-size: var(--body-font);
+    font-weight: 700;
+}
+.home_main{
+    display: flex;
+    align-items: center;
+}
+.home_right, .home_left{
+    width: 50%;
+}
+.home_left h1{
+
+    font-size: var(--large-font);
+    line-height: var(--large-font);
+    font-family: DMSerif;
+    color: var(--sec-juan-blue);
+}
+.home_left form{
+    width: 445px;
+    height: 48px;
+    display: block;
+    border-radius: 28px;
+    background-color: #ffff;
+    display: flex;
+    justify-content: space-between;
+}
+.home_left form input{
+    border-radius: 28px;
+    border: none;
+    padding-left: 10px;
+    line-height: 48px;
+    width: 445px;
+}
+.home_left p{
+    margin: 20px;
+    margin-left: 30px;
+}
+.home_right img {
+    height: 600px;
+}
+.whowork{
+    height: 472px;
+    background-color: rgba(27, 38, 47, 1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+}
+.work_left{
+    width: 30%;
+    font-size: var(--body-font);
+    line-height:30px;
+    height: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+.work_left h2{
+    color: #FBFCFE;
+}   
+.image{
+    width: 536px;
+    height: 103px;
+}
+.image img{
+    width: 90px;
+}
+.image_top,.image_bot{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.esay{
+    margin: 150px auto;
+    width: 1015px;
+    display: flex;
+    align-content: center;
+}
+.esayimg{
+    width: 455px;
+    -webkit-box-shadow: 4px 4px 8px 0px rgba(34, 60, 80, 0.2);
+    -moz-box-shadow: 4px 4px 8px 0px rgba(34, 60, 80, 0.2);
+    box-shadow: 4px 4px 8px 0px rgba(34, 60, 80, 0.2);
+}
+.esay_right{
+    padding: 20px 50px;
+    
+}
+.esay_right p{
+    line-height: 25px;
+    margin-top: 30px;
+}
+.ikki{
+    border-radius: 100%;
+    left: 1050px;
+    top: 1653px;
+}
+.simple{
+    margin: 0 auto;
+    display: flex;
+    width: 90%;
+    border: solid red;
+
+}
+.simple_left{
+    width: 40%; 
+    margin-top: 10%;
+    display: flex;
+    flex-direction: column;
+}
+.simple_right img{
+    width: 263px;
+}
+/*Home section end*/
